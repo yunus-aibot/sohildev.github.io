@@ -1,1 +1,43 @@
-<meta http-equiv="refresh" content="2;url=https://sohilymansuri.github.io/sohil" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>404 — Page Not Found | Sohil Mansuri</title>
+<meta name="robots" content="noindex" />
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+  body{ display:grid; place-items:center; min-height:100svh; text-align:center; }
+  .nf{ position:relative; z-index:2; padding:40px 22px; }
+  .nf__code{
+    font-family:var(--f-display); font-size:clamp(6rem,22vw,14rem); font-weight:700;
+    line-height:.9; letter-spacing:-.06em;
+    background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; -webkit-text-fill-color:transparent;
+    filter:drop-shadow(0 10px 40px rgba(124,92,255,.35));
+  }
+  .nf h1{ font-size:clamp(1.3rem,4vw,2rem); margin:10px 0 14px; }
+  .nf p{ color:var(--muted); max-width:44ch; margin:0 auto 30px; }
+  .nf__actions{ display:flex; flex-wrap:wrap; gap:14px; justify-content:center; }
+  .nf__orb{
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    background:radial-gradient(700px circle at 50% 45%, rgba(124,92,255,.22), transparent 62%);
+  }
+</style>
+</head>
+<body>
+<div class="nf__orb" aria-hidden="true"></div>
+<main class="nf">
+  <div class="nf__code">404</div>
+  <h1>This page took a wrong turn</h1>
+  <p>The link you're looking for doesn't exist or has been moved. Let's get you back on track.</p>
+  <div class="nf__actions">
+    <a href="/" class="btn btn--primary btn--lg"><span>Back to home</span></a>
+    <a href="mailto:lislife462@gmail.com" class="btn btn--ghost btn--lg"><span>Contact me</span></a>
+  </div>
+</main>
+</body>
+</html>
